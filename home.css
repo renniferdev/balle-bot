@@ -1,0 +1,38 @@
+@media screen and (max-width: 1170px) {
+    #home {
+        min-height: 100%;
+        padding-top: 0px;       
+    }
+
+    body {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+}
+
+/*teste em baio mas esta errado. tem que fazer os menus
+terem uma barra para esconder eles.*/
+
+@media screen and (max-width: 1170px) {
+    #body {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .body {
+        width: calc(50% - 12px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: auto;
+        width: auto;
+    }
+
+    .html {
+        text-align: center;
+    }
+}
